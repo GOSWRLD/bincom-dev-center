@@ -13,7 +13,8 @@
 <body>
     <header class="navbar">
         <div class="logo">Gosife<span>.</span></div>
-        <nav>
+
+        <nav class="nav-links">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -22,7 +23,10 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
         <a href="#" class="btn talk-btn">Let's Talk</a>
+
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     </header>
 
     <section class="hero">
@@ -87,6 +91,33 @@
         </div>
     </section>
 
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
     <footer class="portfolio-footer">
         <div class="footer-info">
             <h3>Isaac Anidebe</h3>
@@ -106,6 +137,7 @@
         </p>
     </footer>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
