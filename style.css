@@ -313,6 +313,12 @@ a {
     background-color: #6926ce;
 }
 
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 4px;
+    display: block;
+}
 
 .portfolio-footer {
     background-color: #0f1115;
