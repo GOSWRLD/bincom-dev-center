@@ -3,6 +3,12 @@ const nav = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
   nav.classList.toggle('active');
+
+  if (menuToggle.textContent === '☰') {
+    menuToggle.textContent = '✖'; // X icon
+  } else {
+    menuToggle.textContent = '☰'; // Hamburger
+  }
 });
 
 document.querySelector('.contact-form').addEventListener('submit', function (e) {

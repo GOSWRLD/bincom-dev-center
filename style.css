@@ -63,6 +63,7 @@ a {
     font-size: 1.8rem;
     cursor: pointer;
     color: white;
+    transition: transform 0.3s ease;
 }
 
 .hero {
@@ -382,7 +383,7 @@ footer p {
     }
 
     .nav-links.active {
-        display: flex;
+        display: block;
     }
 
     .nav-links ul {
